@@ -6,7 +6,7 @@ from Restriction.modules import ALL_MODULES
  
 # ----------------------------Bot-Start---------------------------- #
 
-loop = asyncio.get_running_loop()
+loop = asyncio.get_event_loop()
 
 
 async def sumit_boot():
